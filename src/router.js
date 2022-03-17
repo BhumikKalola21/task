@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory} from 'vue-router';
-import Login from './components/Login.vue';
+import TheLogin from './components/TheLogin.vue';
 import Signup from './components/Signup.vue';
 import Dashboard from './components/Dashboard.vue';
 import NotFound from './components/NotFound.vue';
@@ -15,7 +15,7 @@ const router = createRouter({
             path: '/register', component: Signup,
         },
         {
-            path: '/login', component: Login,
+            path: '/login', component: TheLogin,
         },
         {
             path: '/dashboard' ,component: Dashboard, 

@@ -60,11 +60,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
   margin: 0;
 }
-
+p {
+  color: red;
+}
 label {
   font-weight: bold;
   margin-bottom: 0.5rem;
